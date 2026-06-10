@@ -1,0 +1,15 @@
+name = "auto-send-email"
+main = "src/index.ts"
+compatibility_date = "2026-06-08"
+
+[triggers]
+crons = ["* * * * *"]
+
+[[d1_databases]]
+binding = "DB"
+database_name = "auto_send_email"
+database_id = "replace-with-your-d1-database-id"
+
+[vars]
+APP_NAME = "Auto Send Email"
+APP_URL = "https://replace-with-your-worker-or-domain"

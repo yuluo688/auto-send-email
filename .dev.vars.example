@@ -1,0 +1,2 @@
+AUTH_SECRET=replace-with-a-long-random-local-secret
+APP_URL=http://127.0.0.1:8787
